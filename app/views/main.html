@@ -1,0 +1,45 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#">About</a></li>
+    <li><a ng-href="#">Contact</a></li>
+  </ul>
+  <h3 class="text-muted">nhl webapp</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>'Allo, 'Allo!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p>  
+  <button class="btn btn-lg btn-success" ng-click="countUp()" ng-href="#">Increment!</button>
+  <button class="btn btn-lg btn-success" ng-click="countDown()" ng-href="#">Decrement!</button>
+  <button class="btn btn-lg btn-success" ng-click="countClear()" ng-href="#">Clear!</button>
+  </p>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"> Number of Button Clicks </h3>
+  </div>
+  <div class="panel-body">
+    <b> {{count}}</b>
+  </div>
+</div>
+
+<div >
+  <h2>ng-repeat Demo</h2>
+</div>
+<div class="row marketing" ng-repeat="thing in awesomeThings">
+  <h4>{{thing}}</h4>
+  <p>
+    {{thing}} is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+  </p>
+
+</div>
+
+<div class="footer">
+  <p>♥ this is the footer</p>
+</div>
